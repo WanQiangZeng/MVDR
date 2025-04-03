@@ -11,7 +11,7 @@
   •主要工作： 
      多线程并发模拟初始化TPCC和YCSB的工作负载和事务（如TPCC的payment和new-order的读写插入事务） 
 
-•三、实现本课题的MVDR并发控制协议（基于MVCC、EARLY WRITE VISIBILITY、执行过程中验证、TRANSACTION DEPENDENCY REPAIR、TRANSACTION PRIORITY），
+•三、实现本课题的MVDR并发控制协议（基于MVCC、EARLY WRITE VISIBILITY、VALIDATION DURING EXECUTION、TRANSACTION DEPENDENCY REPAIR、TRANSACTION PRIORITY），
 并复现近5年的SIGMOD、VLDB等顶会上发表的最先进的协议(BAMBOO、PLOR、WOUND-WAIT、SILO、WAIT-DIE），在实现的TPCC和YCSB测试基准上评估性能 ./concurrency_control
   •主要工作： 
      实现与评估并发控制协议，在事务高并发处理的过程中保证可序列化的隔离级别 
